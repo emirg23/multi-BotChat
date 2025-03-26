@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		397B84AE2D78C1A000CBA24E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 397B84AD2D78C1A000CBA24E /* FirebaseAuth */; };
+		397B84B02D78C1A000CBA24E /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 397B84AF2D78C1A000CBA24E /* FirebaseCore */; };
+		397B84B22D78C1A000CBA24E /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 397B84B12D78C1A000CBA24E /* FirebaseDatabase */; };
+		397B84B42D78C1A000CBA24E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 397B84B32D78C1A000CBA24E /* FirebaseFirestore */; };
+		397B84B62D78C1A000CBA24E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 397B84B52D78C1A000CBA24E /* FirebaseStorage */; };
+		398D83132D6C3F870076E854 /* Multi_Bot_ChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398D83122D6C3F870076E854 /* Multi_Bot_ChatApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		398D83202D6C3F880076E854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398D83072D6C3F870076E854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 398D830E2D6C3F870076E854;
+			remoteInfo = "Multi-Bot Chat";
+		};
+		398D832A2D6C3F880076E854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398D83072D6C3F870076E854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 398D830E2D6C3F870076E854;
+			remoteInfo = "Multi-Bot Chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		398D830F2D6C3F870076E854 /* Multi-Bot Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi-Bot Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		398D83122D6C3F870076E854 /* Multi_Bot_ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_Bot_ChatApp.swift; sourceTree = "<group>"; };
+		398D831F2D6C3F880076E854 /* Multi-Bot ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi-Bot ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		398D83292D6C3F880076E854 /* Multi-Bot ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi-Bot ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		398D83112D6C3F870076E854 /* Multi-Bot Chat */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Multi-Bot Chat";
+			sourceTree = "<group>";
+		};
+		398D83222D6C3F880076E854 /* Multi-Bot ChatTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Multi-Bot ChatTests";
+			sourceTree = "<group>";
+		};
+		398D832C2D6C3F880076E854 /* Multi-Bot ChatUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Multi-Bot ChatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		398D830C2D6C3F870076E854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397B84B22D78C1A000CBA24E /* FirebaseDatabase in Frameworks */,
+				397B84B42D78C1A000CBA24E /* FirebaseFirestore in Frameworks */,
+				397B84B02D78C1A000CBA24E /* FirebaseCore in Frameworks */,
+				397B84B62D78C1A000CBA24E /* FirebaseStorage in Frameworks */,
+				397B84AE2D78C1A000CBA24E /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398D831C2D6C3F880076E854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398D83262D6C3F880076E854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		398D83062D6C3F870076E854 = {
+			isa = PBXGroup;
+			children = (
+				398D83122D6C3F870076E854 /* Multi_Bot_ChatApp.swift */,
+				398D83112D6C3F870076E854 /* Multi-Bot Chat */,
+				398D83222D6C3F880076E854 /* Multi-Bot ChatTests */,
+				398D832C2D6C3F880076E854 /* Multi-Bot ChatUITests */,
+				398D83102D6C3F870076E854 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		398D83102D6C3F870076E854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				398D830F2D6C3F870076E854 /* Multi-Bot Chat.app */,
+				398D831F2D6C3F880076E854 /* Multi-Bot ChatTests.xctest */,
+				398D83292D6C3F880076E854 /* Multi-Bot ChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		398D830E2D6C3F870076E854 /* Multi-Bot Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 398D83332D6C3F880076E854 /* Build configuration list for PBXNativeTarget "Multi-Bot Chat" */;
+			buildPhases = (
+				398D830B2D6C3F870076E854 /* Sources */,
+				398D830C2D6C3F870076E854 /* Frameworks */,
+				398D830D2D6C3F870076E854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				398D83112D6C3F870076E854 /* Multi-Bot Chat */,
+			);
+			name = "Multi-Bot Chat";
+			packageProductDependencies = (
+				397B84AD2D78C1A000CBA24E /* FirebaseAuth */,
+				397B84AF2D78C1A000CBA24E /* FirebaseCore */,
+				397B84B12D78C1A000CBA24E /* FirebaseDatabase */,
+				397B84B32D78C1A000CBA24E /* FirebaseFirestore */,
+				397B84B52D78C1A000CBA24E /* FirebaseStorage */,
+			);
+			productName = "Multi-Bot Chat";
+			productReference = 398D830F2D6C3F870076E854 /* Multi-Bot Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		398D831E2D6C3F880076E854 /* Multi-Bot ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 398D83362D6C3F880076E854 /* Build configuration list for PBXNativeTarget "Multi-Bot ChatTests" */;
+			buildPhases = (
+				398D831B2D6C3F880076E854 /* Sources */,
+				398D831C2D6C3F880076E854 /* Frameworks */,
+				398D831D2D6C3F880076E854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				398D83212D6C3F880076E854 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				398D83222D6C3F880076E854 /* Multi-Bot ChatTests */,
+			);
+			name = "Multi-Bot ChatTests";
+			packageProductDependencies = (
+			);
+			productName = "Multi-Bot ChatTests";
+			productReference = 398D831F2D6C3F880076E854 /* Multi-Bot ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		398D83282D6C3F880076E854 /* Multi-Bot ChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 398D83392D6C3F880076E854 /* Build configuration list for PBXNativeTarget "Multi-Bot ChatUITests" */;
+			buildPhases = (
+				398D83252D6C3F880076E854 /* Sources */,
+				398D83262D6C3F880076E854 /* Frameworks */,
+				398D83272D6C3F880076E854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				398D832B2D6C3F880076E854 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				398D832C2D6C3F880076E854 /* Multi-Bot ChatUITests */,
+			);
+			name = "Multi-Bot ChatUITests";
+			packageProductDependencies = (
+			);
+			productName = "Multi-Bot ChatUITests";
+			productReference = 398D83292D6C3F880076E854 /* Multi-Bot ChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		398D83072D6C3F870076E854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					398D830E2D6C3F870076E854 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					398D831E2D6C3F880076E854 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 398D830E2D6C3F870076E854;
+					};
+					398D83282D6C3F880076E854 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 398D830E2D6C3F870076E854;
+					};
+				};
+			};
+			buildConfigurationList = 398D830A2D6C3F870076E854 /* Build configuration list for PBXProject "Multi-Bot Chat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = 398D83062D6C3F870076E854;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				397B84AC2D78C1A000CBA24E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 398D83102D6C3F870076E854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				398D830E2D6C3F870076E854 /* Multi-Bot Chat */,
+				398D831E2D6C3F880076E854 /* Multi-Bot ChatTests */,
+				398D83282D6C3F880076E854 /* Multi-Bot ChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		398D830D2D6C3F870076E854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398D831D2D6C3F880076E854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398D83272D6C3F880076E854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		398D830B2D6C3F870076E854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398D83132D6C3F870076E854 /* Multi_Bot_ChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398D831B2D6C3F880076E854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398D83252D6C3F880076E854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		398D83212D6C3F880076E854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 398D830E2D6C3F870076E854 /* Multi-Bot Chat */;
+			targetProxy = 398D83202D6C3F880076E854 /* PBXContainerItemProxy */;
+		};
+		398D832B2D6C3F880076E854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 398D830E2D6C3F870076E854 /* Multi-Bot Chat */;
+			targetProxy = 398D832A2D6C3F880076E854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		398D83312D6C3F880076E854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		398D83322D6C3F880076E854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		398D83342D6C3F880076E854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Multi-Bot Chat/Preview Content\"";
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emirg.Multi-Bot-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		398D83352D6C3F880076E854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Multi-Bot Chat/Preview Content\"";
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emirg.Multi-Bot-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		398D83372D6C3F880076E854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emirg.Multi-Bot-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multi-Bot Chat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Multi-Bot Chat";
+			};
+			name = Debug;
+		};
+		398D83382D6C3F880076E854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emirg.Multi-Bot-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multi-Bot Chat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Multi-Bot Chat";
+			};
+			name = Release;
+		};
+		398D833A2D6C3F880076E854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emirg.Multi-Bot-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multi-Bot Chat";
+			};
+			name = Debug;
+		};
+		398D833B2D6C3F880076E854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emirg.Multi-Bot-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multi-Bot Chat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		398D830A2D6C3F870076E854 /* Build configuration list for PBXProject "Multi-Bot Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398D83312D6C3F880076E854 /* Debug */,
+				398D83322D6C3F880076E854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		398D83332D6C3F880076E854 /* Build configuration list for PBXNativeTarget "Multi-Bot Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398D83342D6C3F880076E854 /* Debug */,
+				398D83352D6C3F880076E854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		398D83362D6C3F880076E854 /* Build configuration list for PBXNativeTarget "Multi-Bot ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398D83372D6C3F880076E854 /* Debug */,
+				398D83382D6C3F880076E854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		398D83392D6C3F880076E854 /* Build configuration list for PBXNativeTarget "Multi-Bot ChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398D833A2D6C3F880076E854 /* Debug */,
+				398D833B2D6C3F880076E854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		397B84AC2D78C1A000CBA24E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		397B84AD2D78C1A000CBA24E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 397B84AC2D78C1A000CBA24E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		397B84AF2D78C1A000CBA24E /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 397B84AC2D78C1A000CBA24E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		397B84B12D78C1A000CBA24E /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 397B84AC2D78C1A000CBA24E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		397B84B32D78C1A000CBA24E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 397B84AC2D78C1A000CBA24E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		397B84B52D78C1A000CBA24E /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 397B84AC2D78C1A000CBA24E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 398D83072D6C3F870076E854 /* Project object */;
+}
