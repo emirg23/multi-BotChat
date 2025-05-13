@@ -1,5 +1,5 @@
 # multi-BotChat
-an app which combines all useful AI bots and allowing you to interact with them through custom prompts using provided APIs.
+an app which combines most useful AI bots and allows you to interact with them through custom prompts using provided APIs.
 
 need an googleservice-info for full function
 
